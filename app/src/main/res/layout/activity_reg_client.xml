@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gd.remi.RegClientActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/colorA"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="36dp"
+                    android:text="Kindly Enter Details"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/a"
+                    android:ems="10"
+                    android:hint="Enter Your Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editFirmName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/a"
+                    android:ems="10"
+                    android:hint="Enter Your Firm Name"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/viber"
+                    android:ems="10"
+                    android:hint="Enter Your Phone"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/gmail"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:hint="Enter your Email" />
+
+
+                <EditText
+                    android:id="@+id/editAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/a"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Enter your Age" />
+
+                <EditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.71"
+                    android:drawableLeft="@drawable/icon"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:hint="Enter your Address" />
+
+
+                <EditText
+                    android:id="@+id/editCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.71"
+                    android:ems="10"
+                    android:drawableLeft="@drawable/b"
+                    android:inputType="text"
+                    android:hint="Enter Your City" />
+
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary"
+                    android:onClick="clickHandler"
+                    android:text="Submit" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

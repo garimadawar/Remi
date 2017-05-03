@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/businessmen"
+            android:title="Clients" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/employees"
+            android:title="Employees" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/product"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/notepad"
+            android:title="Requirements" />
+    </group>
+
+    <item android:title="Admin">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/form"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+
+</menu>
